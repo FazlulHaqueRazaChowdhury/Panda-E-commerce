@@ -74,18 +74,20 @@ h5 {
     align-items: center;
     justify-content: center;
 }
-.nav-link {
-    position: relative;
+.nav-item {
+   position: relative;
 }
-.nav-link::before{
+.nav-item:hover .lines::before{
+    width: 100%;
+    transition: width .5s linear;
+}
+.lines::before{
+  
+   
     content: '';
     position: absolute;
-    width: 5% ;
+    width: 0% ;
     border-bottom: 1px black solid;
     bottom: 0;
     left: 0;
-}
-a:hover .nav-link::before{
-    width: 100% !important;
-
 }

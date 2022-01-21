@@ -38,12 +38,15 @@ input::placeholder{
     max-width: 360px;
     height: 120px;
     margin: 0 auto !important;
+    overflow: hidden !important;
+    overflow: hidden !important;
     
  
 }
 .cards:hover .imging{
     transform: scale(1.2) rotate(-23deg);
     transition: transform .2s linear;
+   
 }
 .card-title {
     color: #1F1F1F !important;
@@ -90,4 +93,14 @@ h5 {
     border-bottom: 1px black solid;
     bottom: 0;
     left: 0;
+}
+.bt {
+    background-color: transparent;
+    outline: none;
+    border: none;
+ 
+    
+    
+    
+
 }
